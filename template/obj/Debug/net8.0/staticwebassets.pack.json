@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\syedf\\Desktop\\templates\\template\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\template.bundle.scp.css",
+      "PackagePath": "staticwebassets\\template.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\syedf\\Desktop\\templates\\template\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\syedf\\Desktop\\templates\\template\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\syedf\\Desktop\\templates\\template\\wwwroot\\jabil.png",
+      "PackagePath": "staticwebassets\\jabil.png"
+    },
+    {
+      "Id": "C:\\Users\\syedf\\Desktop\\templates\\template\\wwwroot\\xxx\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\xxx\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\syedf\\Desktop\\templates\\template\\wwwroot\\xxx\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\xxx\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.template.props",
+      "PackagePath": "build\\template.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.template.props",
+      "PackagePath": "buildMultiTargeting\\template.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.template.props",
+      "PackagePath": "buildTransitive\\template.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.template.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

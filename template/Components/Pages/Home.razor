@@ -1,0 +1,134 @@
+﻿@page "/"
+@using BlazorBootstrap
+
+<div Class="container-fluid p-0">
+    <!-- First Row: 3 Equal-Width Cards -->
+    <div Class="row g-2">
+        <div Class="col-4">
+            <Card Class="" style="height: 300px;">
+                <CardBody>
+                    <CardTitle>Card 1</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Subtitle</CardSubTitle>
+                    <CardText>Some example text for card 1.</CardText>
+                    <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                </CardBody>
+            </Card>
+        </div>
+        <div Class="col-4">
+            <Card Class="" style="height: 300px;">
+                <CardBody>
+                    <CardTitle>Card 2</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Subtitle</CardSubTitle>
+                    <CardText>Some example text for card 2.</CardText>
+                    <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                </CardBody>
+            </Card>
+        </div>
+        <div Class="col-4">
+            <Card Class="h-100">
+                <CardBody>
+                    <CardTitle>Card 3</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Subtitle</CardSubTitle>
+                    <CardText>Some example text for card 3.</CardText>
+                    <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                </CardBody>
+            </Card>
+        </div>
+    </div>
+
+    <!-- Second Row: 2 Equal-Width Cards -->
+    <div Class="row g-2 mt-1">
+        <div Class="col-4">
+            <Card Class="h-100">
+                <CardBody>
+                    <CardTitle>Card 4</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Subtitle</CardSubTitle>
+                    <CardText>Some example text for card 4.</CardText>
+                    <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                </CardBody>
+            </Card>
+        </div>
+        <div Class="col-8">
+            <Card Class="h-100">
+                <CardBody>
+                    <CardTitle>Card 5</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Subtitle</CardSubTitle>
+                    <CardText>Some example text for card 5.</CardText>
+                    <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                </CardBody>
+            </Card>
+        </div>
+    </div>
+
+    <!-- Third Row: 1 Full-Width Card -->
+    <div Class="row g-2 mt-1">
+        <div Class="col-12">
+            <Card Class="h-100">
+                <CardBody>
+                    <CardTitle>Card 6</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Subtitle</CardSubTitle>
+                    <CardText>Some example text for card 6.</CardText>
+                    <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                </CardBody>
+            </Card>
+        </div>
+    </div>
+
+
+    <div Class="row g-2 mt-1">
+        <!-- First Column with One Tall Card -->
+        <div Class="col-6 ">
+            <Card Class="h-100" Style="width: 100%; height: 50px;">
+                <CardBody>
+                    <CardTitle>Card 1</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Full Height</CardSubTitle>
+                    <CardText>Content for the full-height card.</CardText>
+                    <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                </CardBody>
+            </Card>
+        </div>
+
+        <!-- Second Column with Two Stacked Cards -->
+        <div Class="col-4">
+            <div Class="row">
+                <!-- Top Card (Full Height) -->
+                <div Class="col-12 mb-2">
+                    <Card Class="h-100" Style="width: 100%; height: 100px;">
+                        <CardBody>
+                            <CardTitle>Card 2</CardTitle>
+                            <CardSubTitle Class="mb-2 text-muted">Full Height</CardSubTitle>
+                            <CardText>Content for the full-height card in the second column.</CardText>
+                            <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                        </CardBody>
+                    </Card>
+                </div>
+
+                <!-- Bottom Card (Half Height) -->
+                <div Class="col-12">
+                    <Card Class="" Style="width: 100%; height: 200px;">
+                        <CardBody>
+                            <CardTitle>Card 3</CardTitle>
+                            <CardSubTitle Class="mb-2 text-muted">Half Height</CardSubTitle>
+                            <CardText>Content for the half-height card below the top card.</CardText>
+                            <Button Color="ButtonColor.Primary" To="#" Type="ButtonType.Link">Go somewhere</Button>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
+        </div>
+        <div Class="col-2">
+            <div Class="row">
+
+                <div class="col-12 ">
+                    <Card Class="h-100" Style="width: 100%; height: 400px;">
+                        <CardBody>
+                            <CardTitle>Card 9 with nested row</CardTitle>
+                            <CardSubTitle Class="mb-2 text-muted">full Height</CardSubTitle>
+                            <CardText>Content for the half-height card below the top card.</CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
